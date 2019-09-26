@@ -1,0 +1,29 @@
+CUSTODIAN VER 1.1.0 :
+-	PERUBAHAN FUNCTION EMAIL UNTUK REGISTRASI, LOAN DAN RELEASE DOKUMEN :
+	-	include/function.mail.regdoc.php
+	-	include/function.mail.regdocla.php
+	-	include/function.mail.lodoc.php
+	-	include/function.mail.lodocla.php
+	-	include/function.mail.reldoc.php
+	-	include/function.mail.reldocla.php
+
+-	PERUBAHAN FILE REGISTASI, LOAN DAN RELEASE DOKUMEN :
+	-	registration-of-document.php
+	-	registration-of-land-acquisition-document.php
+	-	loan-of-document.php
+	-	loan-of-land-acquisition-document.php
+	-	release-of-document.php
+	-	release-of-land-acquisition-document.php
+	
+-	PENAMBAHAN FILE REMINDER :
+	-	reminder_approval_grl.php
+	-	reminder_approval_legal.php
+	
+- 	PERUBAHAN UNTUK PRINT LEMBAR REKAPITULASI TRANSAKSI :
+	-	css/style-print.php
+	-	print-registration-of-document.php
+	-	print-registration-of-land-acquisition-document.php
+	-	print-loan-of-document.php
+	-	print-loan-of-land-acquisition-document.php
+	-	print-release-of-document.php
+	-	print-release-of-land-acquisition-document.php

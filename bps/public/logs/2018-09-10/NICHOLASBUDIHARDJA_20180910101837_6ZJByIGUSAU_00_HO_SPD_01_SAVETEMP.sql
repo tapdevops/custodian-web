@@ -1,0 +1,47 @@
+START : 2018-09-10 10:18:37
+
+                UPDATE TR_HO_SPD 
+                SET 
+                    PERIOD_BUDGET   = TO_DATE('2018', 'YYYY'),
+                    DIV_CODE        = '',
+                    CC_CODE         = '005',
+                    RK_ID           = '224',
+                    SPD_DESCRIPTION = 'Penjurian TIFA 2019',
+                    COA_CODE        = '1207010201',
+                    NORMA_SPD_ID    = '98',
+                    CORE_CODE       = 'HO',
+                    COMP_CODE       = '13',
+                    BA_CODE         = '1311',
+                    PLAN            = '3',
+                    GOLONGAN        = '4',
+                    JLH_PRIA        = '2',
+                    JLH_WANITA      = '2',
+                    JLH_HARI        = '2',
+                    TIKET           = '13769552',
+                    TRANSPORT_LAIN  = '0',
+                    UANG_MAKAN      = '308000',
+                    UANG_SAKU       = '387200',
+                    HOTEL_JLH_HARI  = '1',
+                    HOTEL_JLH_TARIF = '2178000',
+                    OTHERS          = '0',
+                    TOTAL           = '16642752',
+                    REMARKS_OTHERS  = '',
+                    SEBARAN_JAN     = '0',
+                    SEBARAN_FEB     = '0',
+                    SEBARAN_MAR     = '16642752',
+                    SEBARAN_APR     = '0',
+                    SEBARAN_MAY     = '0',
+                    SEBARAN_JUN     = '0',
+                    SEBARAN_JUL     = '0',
+                    SEBARAN_AUG     = '0',
+                    SEBARAN_SEP     = '0',
+                    SEBARAN_OCT     = '0',
+                    SEBARAN_NOV     = '0',
+                    SEBARAN_DEC     = '0',
+                    SEBARAN_TOTAL   = '16642752',
+                    TIPE_NORMA      = 'UMUM',
+                    UPDATE_USER     = 'NICHOLAS.BUDIHARDJA',
+                    UPDATE_TIME     = SYSDATE
+                WHERE ROWIDTOCHAR(ROWID) = 'AAAsHlAAaAACaleAAB';
+            COMMIT;
+END : 2018-09-10 10:18:37

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+	width:497;
+	font-family:lucida grande,tahoma,verdana,arial,sans-serif; 
+	font-size:12px; 
+	border-top:1px solid #000; 
+	border-bottom:1px solid #000; 
+	border-left:1px solid #000; 
+	border-right:1px solid #000;
+}
+
+td{
+	padding: 4px 8px; 	
+	letter-spacing: -0.03em; 
+	text-align: left;
+	width:100%;
+}
+
+.header{
+	padding: 4px 8px; 
+	background: #093 none repeat scroll 0% 0%; 
+	-moz-background-clip: border; 
+	-moz-background-origin: padding; 
+	-moz-background-inline-policy: continuous; 
+	color: #ffffff; 
+	font-weight: bolder; 
+	vertical-align: middle; 
+	font-size: 16px; 
+	letter-spacing: -0.03em; 
+	text-align: center;
+	width:100%;
+}
+textarea{
+	width:100%;
+}
+.footer{
+	padding: 4px 8px; 
+	-moz-background-clip: border; 
+	-moz-background-origin: padding; 
+	-moz-background-inline-policy: continuous; 
+	color: #ccc; 
+	vertical-align: middle; 
+	letter-spacing: -0.03em; 
+	font-size:10px;
+	text-align: left;
+	width:100%;
+}

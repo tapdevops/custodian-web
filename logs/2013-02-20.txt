@@ -1,0 +1,18 @@
+CUSTODIAN VER 1.5.0 :
+-	Peminjaman Dokumen : 			
+	- Pada list dokumen yang dapat dipinjam, ditambahkan status dokumen.			
+	- Tambahkan notes "Apabila status dokumen "Tidak Tersedia", harap hubungi tim custodian".			
+				
+-	Pencarian Dokumen :			
+	- Pencarian di sisi user ditambahkan filter PT dan hasil pencarian ditampilkan tanggal terbit.			
+	- Pada hasil pencarian di sisi custodian akan ditampilkan tanggal terbit dokumen.			
+				
+-	Pencarian Dokumen GRL (BUGS FIXING)	
+				
+-	Upload pendaftaran GRL :			
+	- Panel keterangan & panel header akan di freeze.			
+	- Upload excel beserta isi checklist nya.			
+				
+-	Perubahan Tahap GRL :			
+	- Perubahan tahap dokumen cukup dilakukan 1x pada daftar transaksi dokumen dan daftar dokumen akan			
+	  otomatis mengikuti perubahaan tahap tersebut.			

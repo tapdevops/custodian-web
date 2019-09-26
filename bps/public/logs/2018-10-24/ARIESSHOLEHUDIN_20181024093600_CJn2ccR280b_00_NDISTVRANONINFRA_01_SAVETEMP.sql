@@ -1,0 +1,315 @@
+START : 2018-10-24 09:36:00
+
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='A';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('A',',',''),
+								REPLACE('1',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='B';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('B',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='C';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('C',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='D';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('D',',',''),
+								REPLACE('12',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='E';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('E',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='F';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('F',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='G';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('G',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='H';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('H',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='BIBITAN';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('BIBITAN',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='BASECAMP';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('BASECAMP',',',''),
+								REPLACE('1',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='UMUM';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('UMUM',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						
+							DELETE FROM TR_RKT_VRA_DISTRIBUSI 
+							WHERE 
+								PERIOD_BUDGET = TO_DATE('01-01-2018','DD-MM-RRRR') 
+								AND BA_CODE='2121' 
+								AND ACTIVITY_CODE ='5201011899' 
+								AND VRA_CODE = 'MB010' 
+								AND LOCATION_CODE ='LAIN';
+						
+							INSERT INTO TR_RKT_VRA_DISTRIBUSI (PERIOD_BUDGET, BA_CODE, ACTIVITY_CODE, VRA_CODE, LOCATION_CODE, HM_KM, PRICE_QTY_VRA, 
+							PRICE_HM_KM, TRX_CODE, TIPE_TRANSAKSI, FLAG_TEMP, INSERT_USER, INSERT_TIME)
+							VALUES (
+								TO_DATE('01-01-2018','DD-MM-RRRR'),
+								'2121',
+								'5201011899',
+								'MB010',
+								REPLACE('LAIN',',',''),
+								REPLACE('0',',',''),
+								0,
+								0,
+								'2018-2121-RKT016-5201011899-MB010',
+								'NON_INFRA',
+								'Y',
+								'ARIES.SHOLEHUDIN',
+								SYSDATE
+							);
+						COMMIT;
+END : 2018-10-24 09:36:00

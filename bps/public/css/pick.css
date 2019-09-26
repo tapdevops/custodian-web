@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.page {
+    width: 100%;
+    margin: 10px auto;
+}
+div.content {
+    width: 100%;
+    padding: 5px;
+    background: #F8F7F7;
+}
+div.content .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4D4D4D;
+}
+
+table, fieldset {
+    font-size: 11px;
+}
+table td.header {
+    font-weight: bold;
+    text-align: center;
+}
+table td.data {
+    text-align: center;
+}
+
+input, select {
+    font-size: 11px;
+}
+input.button {
+    padding: 2px 10px;
+    cursor: pointer;
+	font-weight: bold;
+	width: 70px;
+	text-transform: uppercase;
+}
+input[type="text"][readonly] {
+    background-color: #E6E6FA;
+}

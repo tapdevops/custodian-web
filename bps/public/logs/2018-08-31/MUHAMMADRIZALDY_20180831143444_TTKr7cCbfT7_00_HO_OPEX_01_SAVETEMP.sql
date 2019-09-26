@@ -1,0 +1,53 @@
+START : 2018-08-31 14:34:44
+
+                INSERT INTO TM_HO_OPEX (
+                    PERIOD_BUDGET,
+                    CC_CODE,
+                    RK_ID,
+                    OPEX_DESCRIPTION,
+                    CORE_CODE,
+                    COMP_CODE,
+                    BA_CODE,
+                    COA_CODE,
+                    OPEX_JAN,
+                    OPEX_FEB,
+                    OPEX_MAR,
+                    OPEX_APR,
+                    OPEX_MAY,
+                    OPEX_JUN,
+                    OPEX_JUL,
+                    OPEX_AUG,
+                    OPEX_SEP,
+                    OPEX_OCT,
+                    OPEX_NOV,
+                    OPEX_DEC,
+                    OPEX_TOTAL,
+                    INSERT_USER,
+                    INSERT_TIME
+                ) VALUES (
+                    TO_DATE('2018', 'YYYY'),
+                    '009',
+                    '236',
+                    'free text',
+                    'HO',
+                    '21',
+                    '2111',
+                    '6201010501',
+                    '50000',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '50000',
+                    'MUHAMMAD.RIZALDY',
+                    SYSDATE
+                );
+            COMMIT;
+END : 2018-08-31 14:34:44

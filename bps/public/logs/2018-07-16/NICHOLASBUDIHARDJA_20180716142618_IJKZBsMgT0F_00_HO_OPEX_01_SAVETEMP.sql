@@ -1,0 +1,53 @@
+START : 2018-07-16 14:26:18
+
+                INSERT INTO TM_HO_OPEX (
+                    PERIOD_BUDGET,
+                    CC_CODE,
+                    RK_ID,
+                    OPEX_DESCRIPTION,
+                    CORE_CODE,
+                    COMP_CODE,
+                    BA_CODE,
+                    COA_CODE,
+                    OPEX_JAN,
+                    OPEX_FEB,
+                    OPEX_MAR,
+                    OPEX_APR,
+                    OPEX_MAY,
+                    OPEX_JUN,
+                    OPEX_JUL,
+                    OPEX_AUG,
+                    OPEX_SEP,
+                    OPEX_OCT,
+                    OPEX_NOV,
+                    OPEX_DEC,
+                    OPEX_TOTAL,
+                    INSERT_USER,
+                    INSERT_TIME
+                ) VALUES (
+                    TO_DATE('2018', 'YYYY'),
+                    'D00057',
+                    '3',
+                    'Testing Keterangan Regular',
+                    'SITE',
+                    '11',
+                    '1121',
+                    '6201011201',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '200.00',
+                    '2,400.00',
+                    'NICHOLAS.BUDIHARDJA',
+                    SYSDATE
+                );
+            COMMIT;
+END : 2018-07-16 14:26:19

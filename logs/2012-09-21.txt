@@ -1,0 +1,6 @@
+CUSTODIAN VER 1.2.0 :
+-	PERUBAHAN FUNCTION EMAIL LOAN :
+	-	include/function.mail.lodoc.php
+	-	include/function.mail.lodocla.php
+
+-	PENAMBAHAN TABLE PARAMETERS (UTK CEO REGION)

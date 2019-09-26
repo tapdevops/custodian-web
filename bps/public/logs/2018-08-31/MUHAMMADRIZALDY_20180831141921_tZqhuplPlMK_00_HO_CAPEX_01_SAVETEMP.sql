@@ -1,0 +1,53 @@
+START : 2018-08-31 14:19:21
+
+                INSERT INTO TM_HO_CAPEX (
+                    PERIOD_BUDGET,
+                    CC_CODE,
+                    RK_ID,
+                    CAPEX_DESCRIPTION,
+                    CORE_CODE,
+                    COMP_CODE,
+                    BA_CODE,
+                    COA_CODE,
+                    CAPEX_JAN,
+                    CAPEX_FEB,
+                    CAPEX_MAR,
+                    CAPEX_APR,
+                    CAPEX_MAY,
+                    CAPEX_JUN,
+                    CAPEX_JUL,
+                    CAPEX_AUG,
+                    CAPEX_SEP,
+                    CAPEX_OCT,
+                    CAPEX_NOV,
+                    CAPEX_DEC,
+                    CAPEX_TOTAL,
+                    INSERT_USER,
+                    INSERT_TIME
+                ) VALUES (
+                    TO_DATE('2018', 'YYYY'),
+                    '009',
+                    '229',
+                    'free text',
+                    'HO',
+                    '11',
+                    '1111',
+                    '1207010701',
+                    '0',
+                    '10000000',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '10000000',
+                    'MUHAMMAD.RIZALDY',
+                    SYSDATE
+                );
+            COMMIT;
+END : 2018-08-31 14:19:21

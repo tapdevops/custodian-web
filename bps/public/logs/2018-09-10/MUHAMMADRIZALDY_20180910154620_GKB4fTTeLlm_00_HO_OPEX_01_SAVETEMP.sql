@@ -1,0 +1,53 @@
+START : 2018-09-10 15:46:20
+
+                INSERT INTO TM_HO_OPEX (
+                    PERIOD_BUDGET,
+                    CC_CODE,
+                    RK_ID,
+                    OPEX_DESCRIPTION,
+                    CORE_CODE,
+                    COMP_CODE,
+                    BA_CODE,
+                    COA_CODE,
+                    OPEX_JAN,
+                    OPEX_FEB,
+                    OPEX_MAR,
+                    OPEX_APR,
+                    OPEX_MAY,
+                    OPEX_JUN,
+                    OPEX_JUL,
+                    OPEX_AUG,
+                    OPEX_SEP,
+                    OPEX_OCT,
+                    OPEX_NOV,
+                    OPEX_DEC,
+                    OPEX_TOTAL,
+                    INSERT_USER,
+                    INSERT_TIME
+                ) VALUES (
+                    TO_DATE('2018', 'YYYY'),
+                    '067',
+                    '246',
+                    'Alat Tulis Kantor',
+                    'HO',
+                    '51',
+                    '5111',
+                    '6201011501',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '0',
+                    '9000000',
+                    '9000000',
+                    'MUHAMMAD.RIZALDY',
+                    SYSDATE
+                );
+            COMMIT;
+END : 2018-09-10 15:46:21

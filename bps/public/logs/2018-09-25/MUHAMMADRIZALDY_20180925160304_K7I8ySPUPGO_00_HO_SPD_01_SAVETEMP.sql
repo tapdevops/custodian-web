@@ -1,0 +1,47 @@
+START : 2018-09-25 16:03:04
+
+                UPDATE TR_HO_SPD 
+                SET 
+                    PERIOD_BUDGET   = TO_DATE('2018', 'YYYY'),
+                    DIV_CODE        = '',
+                    CC_CODE         = '015',
+                    RK_ID           = '247',
+                    SPD_DESCRIPTION = 'Training',
+                    COA_CODE        = '6201010401',
+                    NORMA_SPD_ID    = '118',
+                    CORE_CODE       = 'HO',
+                    COMP_CODE       = '63',
+                    BA_CODE         = '6311',
+                    PLAN            = '7',
+                    GOLONGAN        = '5',
+                    JLH_PRIA        = '1',
+                    JLH_WANITA      = '',
+                    JLH_HARI        = '3',
+                    TIKET           = '3725469',
+                    TRANSPORT_LAIN  = '500000',
+                    UANG_MAKAN      = '8640000',
+                    UANG_SAKU       = '1215000',
+                    HOTEL_JLH_HARI  = '0',
+                    HOTEL_JLH_TARIF = '0',
+                    OTHERS          = '0',
+                    TOTAL           = '14080469',
+                    REMARKS_OTHERS  = '',
+                    SEBARAN_JAN     = '0',
+                    SEBARAN_FEB     = '0',
+                    SEBARAN_MAR     = '0',
+                    SEBARAN_APR     = '0',
+                    SEBARAN_MAY     = '0',
+                    SEBARAN_JUN     = '0',
+                    SEBARAN_JUL     = '14080469',
+                    SEBARAN_AUG     = '0',
+                    SEBARAN_SEP     = '0',
+                    SEBARAN_OCT     = '0',
+                    SEBARAN_NOV     = '0',
+                    SEBARAN_DEC     = '0',
+                    SEBARAN_TOTAL   = '14080469',
+                    TIPE_NORMA      = 'KHUSUS',
+                    UPDATE_USER     = 'MUHAMMAD.RIZALDY',
+                    UPDATE_TIME     = SYSDATE
+                WHERE ROWIDTOCHAR(ROWID) = 'AAAsHlAAaAACaldAAB';
+            COMMIT;
+END : 2018-09-25 16:03:04

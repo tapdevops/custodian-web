@@ -1,0 +1,6 @@
+CUSTODIAN VER 1.3.0 :
+-	PERUBAHAN FUNCTION APPROVAL :
+	-	include/function.mail.lodoc.php
+	-	include/function.mail.lodocla.php
+
+-	PENAMBAHAN TABLE PARAMETERS (UTK CEO REGION)

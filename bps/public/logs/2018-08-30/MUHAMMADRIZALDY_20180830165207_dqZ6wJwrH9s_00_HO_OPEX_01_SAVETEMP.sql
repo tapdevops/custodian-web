@@ -1,0 +1,53 @@
+START : 2018-08-30 16:52:07
+
+                INSERT INTO TM_HO_OPEX (
+                    PERIOD_BUDGET,
+                    CC_CODE,
+                    RK_ID,
+                    OPEX_DESCRIPTION,
+                    CORE_CODE,
+                    COMP_CODE,
+                    BA_CODE,
+                    COA_CODE,
+                    OPEX_JAN,
+                    OPEX_FEB,
+                    OPEX_MAR,
+                    OPEX_APR,
+                    OPEX_MAY,
+                    OPEX_JUN,
+                    OPEX_JUL,
+                    OPEX_AUG,
+                    OPEX_SEP,
+                    OPEX_OCT,
+                    OPEX_NOV,
+                    OPEX_DEC,
+                    OPEX_TOTAL,
+                    INSERT_USER,
+                    INSERT_TIME
+                ) VALUES (
+                    TO_DATE('2018', 'YYYY'),
+                    '009',
+                    '228',
+                    'Toner Printer',
+                    'HO',
+                    '12',
+                    '1211',
+                    '6201011501',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '1000000',
+                    '12000000',
+                    'MUHAMMAD.RIZALDY',
+                    SYSDATE
+                );
+            COMMIT;
+END : 2018-08-30 16:52:07

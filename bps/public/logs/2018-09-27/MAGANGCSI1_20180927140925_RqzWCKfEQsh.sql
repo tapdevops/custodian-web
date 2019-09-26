@@ -1,0 +1,8 @@
+START : 2018-09-27 14:09:25
+
+            UPDATE TM_HO_CORE
+            SET DELETE_USER = 'MAGANG.CSI1',
+                DELETE_TIME = SYSDATE
+            WHERE ROWIDTOCHAR(ROWID) = 'AAAr3lAAeAAAxStAAA';
+        COMMIT;
+END : 2018-09-27 14:09:25

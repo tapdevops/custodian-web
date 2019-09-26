@@ -1,0 +1,46 @@
+START : 2018-08-31 10:24:04
+
+                UPDATE TR_HO_SPD 
+                SET 
+                    PERIOD_BUDGET   = TO_DATE('2018', 'YYYY'),
+                    DIV_CODE        = '',
+                    CC_CODE         = '015',
+                    RK_ID           = '234',
+                    SPD_DESCRIPTION = 'SO Kalteng 1',
+                    COA_CODE        = '6201010401',
+                    NORMA_SPD_ID    = '67',
+                    CORE_CODE       = 'HO',
+                    COMP_CODE       = '41',
+                    BA_CODE         = '4111',
+                    PLAN            = '9',
+                    GOLONGAN        = '4',
+                    JLH_PRIA        = '1',
+                    JLH_WANITA      = '',
+                    JLH_HARI        = '1',
+                    TIKET           = '1221194',
+                    TRANSPORT_LAIN  = '0',
+                    UANG_MAKAN      = '77000',
+                    UANG_SAKU       = '96800',
+                    HOTEL_JLH_HARI  = '1',
+                    HOTEL_JLH_TARIF = '0',
+                    OTHERS          = '1000',
+                    TOTAL           = '1395994',
+                    REMARKS_OTHERS  = 'permen',
+                    SEBARAN_JAN     = '0',
+                    SEBARAN_FEB     = '0',
+                    SEBARAN_MAR     = '0',
+                    SEBARAN_APR     = '0',
+                    SEBARAN_MAY     = '0',
+                    SEBARAN_JUN     = '0',
+                    SEBARAN_JUL     = '0',
+                    SEBARAN_AUG     = '0',
+                    SEBARAN_SEP     = '1395994',
+                    SEBARAN_OCT     = '0',
+                    SEBARAN_NOV     = '0',
+                    SEBARAN_DEC     = '0',
+                    SEBARAN_TOTAL   = '1395994',
+                    UPDATE_USER     = 'MUHAMMAD.RIZALDY',
+                    UPDATE_TIME     = SYSDATE
+                WHERE ROWIDTOCHAR(ROWID) = 'AAAsHlAAaAACalcAAD';
+            COMMIT;
+END : 2018-08-31 10:24:04
